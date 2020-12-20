@@ -1,0 +1,80 @@
+@import 'fonts.css';
+
+body{
+    font-family: 'Open Sans Semibold';
+}
+
+/* меню */
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar{
+    padding: 20px 0;
+    color: #212121;
+}
+
+.menu-bar{
+    color: #212121;
+
+}
+
+.menu__item{
+    margin-left: 37px;
+}
+
+.menu__item a{
+    font-size: 20px;
+    color: #212121;
+}
+
+.menu__item a:hover{
+    text-decoration: none;
+    color: #868686;
+}
+
+/* шапка */
+
+.header > div{
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background: url('../img/header.png');
+}
+
+.header__title{
+    font-size: 55px;
+}
+
+.header__text{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button{
+    padding: 10px 25px;
+    margin: 0px 15px;
+    color: white;
+    transition: .3s;
+}
+
+.button_empty{
+    background: transparent;
+    border: 2px solid white; 
+}
+
+.button_full{
+    background: #00897b;
+    border: 2px solid #00897b;
+
+}
+
+.button_empty:hover,
+.button_full:hover{
+    border: 2px solid white;
+    background: #01c5b2;
+}
